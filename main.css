@@ -1,0 +1,391 @@
+body {
+    outline: none;
+
+}
+h6{
+    padding-top: 1em;
+    
+}
+#celsius {
+    margin-top: 60px;
+    width: 600px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-top: 4px solid gainsboro;
+}
+
+#fahrenheit {
+    width: 600px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+
+#rankie {
+    width: 600px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+
+#centigrade {
+    width: 600px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border:2px solid gainsboro;
+    text-align: center;
+}
+
+#kelvin {
+    width: 600px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-bottom: 4px solid gainsboro;
+}
+#main{
+    background-color: rgba(119,136,153,0.7);
+    width: 100%;
+    height: 100vh;
+}
+::placeholder {
+    text-align: center;
+}
+
+@media(max-width:479px){
+ h6{
+    padding-top: 0.6em; 
+}   
+    #celsius {
+    margin-top: 40px;
+    width: 400px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-top: 4px solid gainsboro;
+}
+    #fahrenheit {
+    width: 400px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #rankie {
+    width: 400px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #centigrade {
+    width: 400px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border:2px solid gainsboro;
+    text-align: center;
+}
+    #kelvin {
+    width: 400px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-bottom: 4px solid gainsboro;
+}
+}
+
+@media(max-width:350px) and (max-width:379px){
+     h6{
+    padding-top: 0.4em; 
+}   
+    #celsius {
+    margin-top: 30px;
+    width: 305px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-top: 4px solid gainsboro;
+}
+    #fahrenheit {
+    width: 305px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #rankie {
+    width: 305px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #centigrade {
+    width: 305px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border:2px solid gainsboro;
+    text-align: center;
+}
+    #kelvin {
+    width: 305px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-bottom: 4px solid gainsboro;
+}
+    
+}
+
+@media(min-width:575px) and (max-width:767px){
+     h6{
+    padding-top: 0.6em; 
+}   
+    #celsius {
+    margin-top: 40px;
+    width: 500px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-top: 4px solid gainsboro;
+}
+    #fahrenheit {
+    width: 500px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #rankie {
+    width: 500px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #centigrade {
+    width: 500px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border:2px solid gainsboro;
+    text-align: center;
+}
+    #kelvin {
+    width: 500px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-bottom: 4px solid gainsboro;
+}
+}
+@media(min-width:480px) and (max-width:574px){
+         h6{
+    padding-top: 0.6em; 
+}   
+    #celsius {
+    margin-top: 40px;
+    width: 450px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-top: 4px solid gainsboro;
+}
+    #fahrenheit {
+    width: 450px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #rankie {
+    width: 450px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #centigrade {
+    width: 450px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border:2px solid gainsboro;
+    text-align: center;
+}
+    #kelvin {
+    width: 450px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-bottom: 4px solid gainsboro;
+}
+}
+
+@media(min-width:768px) and (max-width:991px){
+             h6{
+    padding-top: 0.6em; 
+}   
+    #celsius {
+    margin-top: 40px;
+    width: 580px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-top: 4px solid gainsboro;
+}
+    #fahrenheit {
+    width: 580px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #rankie {
+    width: 580px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #centigrade {
+    width: 580px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border:2px solid gainsboro;
+    text-align: center;
+}
+    #kelvin {
+    width: 580px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-bottom: 4px solid gainsboro;
+}
+}
+@media(min-width:380px) and (max-width:478px){
+             h6{
+    padding-top: 0.5em; 
+}   
+    #celsius {
+    margin-top: 30px;
+    width: 365px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-top: 4px solid gainsboro;
+}
+    #fahrenheit {
+    width: 365px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #rankie {
+    width: 365px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+    #centigrade {
+    width: 365px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border:2px solid gainsboro;
+    text-align: center;
+}
+    #kelvin {
+    width: 365px;
+    padding: 0.5em;
+    font-size: 32px;
+    background-color: #000;
+    color: white;
+    border: 2px solid gainsboro;
+    text-align: center;
+    border-bottom: 4px solid gainsboro;
+}
+}
